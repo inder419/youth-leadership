@@ -1,0 +1,64 @@
+
+body{
+  font-size: 1em;
+ background:cover;
+  background-repeat:no-repeat;
+}
+.footer-top{
+  background:black;
+  color:White;
+  
+  
+  }
+  .footer-bottom-text{
+	background-color:Black;
+	color:White;
+  }
+  .Subscribe{
+	padding:10px;
+	border-color:Red;
+	border-radius:10px;
+	border-style:solid;
+	background-color:SkyBlue;
+	font-size:10px;
+	
+	
+	
+  }
+  .email{
+	border-radius:15px;
+      border-color:SkyBlue;
+  }
+  .logo{
+	
+	height:60px;
+	width:45px;
+	
+	
+  }
+  .nav-item{
+	background-color:SkyBlue;
+	border-style:inset;
+	border-radius:15px;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	
+  }
+  .nav-link:hover{
+	
+	background-color:RoyalBlue;
+	border-radius:30px;
+	font-style:oblique;
+	
+  }
+  
+  label{
+	margin-left:30px;
+	
+	
+  }
+  .needs-validation{
+	margin-bottom:50px;
+  }
+  

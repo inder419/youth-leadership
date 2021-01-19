@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="www.thinkofit.org, think of it, think of it foundation, ngo, teach, volunteer, social work, donate,he help, charity, city, help, ngos, online">
+	<!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="css/stylesheet_1.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="media/icon_toi.png" type="image/x-icon">
+	<title>Donate</title>
+	
+	<link href="css/styles.css" rel="stylesheet">
+	
+  </head>
+  
+ 
+<style>
+  
+  
+body{
+  font-size: 1em;
+ background:cover;
+  background-repeat:no-repeat;
+}
+.footer-top{
+  background:black;
+  color:White;
+  
+  
+  }
+  .footer-bottom-text{
+	background-color:Black;
+	color:White;
+  }
+  .Subscribe{
+	padding:10px;
+	border-color:Red;
+	border-radius:10px;
+	border-style:solid;
+	background-color:SkyBlue;
+	font-size:10px;
+	
+	
+	
+  }
+  .email{
+	border-radius:15px;
+      border-color:SkyBlue;
+  }
+  .logo{
+	
+	height:60px;
+	width:45px;
+	
+	
+  }
+  .nav-item{
+	background-color:SkyBlue;
+	border-style:inset;
+	border-radius:15px;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	
+  }
+  .nav-link:hover{
+	
+	background-color:RoyalBlue;
+	border-radius:30px;
+	font-style:oblique;
+	
+  }
+  
+  
+  
+  
+  body{
+  background-image:url('https://images.pexels.com/photos/1039083/pexels-photo-1039083.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+ background-repeat:no-repeat
+  }
+  
+  
+</style>
+
+  <body onload="submitPayuForm()">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <img src=" https://www.logogenie.net/download/preview/engine/7934562  " class="logo">
+	  <h4>Youth Leadership</h4>
+	  <a class="navbar-brand" href="#"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		  <li class="nav-item active">
+			<a class="nav-link" href="youth page.html">Home <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item" >
+			<a class="nav-link" href="Donation.html">Donate</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link " href="login.html">Login</a>
+		  </li>
+
+		  <li class="nav-item">
+			<a class="nav-link  " href="contact.html">Contact</a>
+		  </li>
+
+		  <li class="nav-item">
+			<a class="nav-link " href="About.html">About as</a>
+		  </li>
+		</ul>
+
+	  </div>
+	</nav>
+	
+    <div class="container-fluid "
+	  style=" border-radius: 2px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);height:100vh;overflow-y:hidden;padding-top:10vh;">
+
+	  <h2 class=" text-center" style="font-family: 'Bitter', serif;">Think Of It</h2>
+	  <p class="text-center mx-auto d-block" style="font-size:15px;color:grey;width:350px;">Greetings!<br><b>Master
+		  your world.</b><br> Sign up to create your vibe and experience.
+	  </p>
+	  <form class="needs-validation" method="POST" novalidate>
+		<div class="mx-auto d-block" style="width:300px;margin:5px;">
+
+		  <input type="email" name="email" placeholder="Enter your email" required class=" form-control" /><span style="color:red;font-size:15px;"></span>
+		  <div class="invalid-feedback">Please enter the Email</div>
+		</div>
+
+		<div class="mx-auto d-block" style="width:300px;margin:5px;">
+		  <input type="password" name="password" placeholder="Enter a password" id="txtPassword" required
+			class=" form-control" />
+		  <div class="invalid-feedback">Please enter the Password</div>
+		</div>
+
+		<div class="mx-auto d-block" style="width:300px;margin:5px;">
+		  <input type="password" name="confirmpassword" placeholder="Confirm password" id="txtConfirmPassword"
+			required class=" form-control " /><span id='message' style="color:#dc3545;font-size:13px;"></span>
+
+		  <div class="invalid-feedback" id="cPwdInvalid">Please enter the valid Password</div>
+
+		</div>
+
+		<button type="submit" name="submit"
+		  style="margin:20px 0 10px 0;background-color:#0E76A9;color:white;width:150px"
+		  onclick="return Validate()" class="mx-auto d-block btn "> Sign Up</button>
+	  </form>
+	  <div align="center"><a href="https://accounts.google.com/o/oauth2/auth?response_type=code&access_type=online&client_id=506347848974-cp6ptgtberp4jog38ubqlafgjd5jflac.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.thinkofit.org%2Fsignin-TOI.php&state&scope=email%20profile&approval_prompt=auto"><button style="margin:10px;" class="mx-auto d-block btn  btn-info "><i class="fab fa-google" style="color:white"></i> Sign up with Google</button></a></div><div style="text-align:center;"><p style="color:red;font-size:17px"></p></div>
+	  <button style="margin:5px 0 15px 0;background-color:#0E76A9;color:white;" class="mx-auto d-block btn "><i
+		  class="fab fa-linkedin"></i> Sign in with LinkedIn</button>
+
+	  <h5 class=" text-center">Already a member? <a href="login.html" style="color:#79AF9C;text-decoration:none">
+		  Sign In</a></h5>
+
+	  <p class="text-center mx-auto d-block" style="font-size:15px;color:grey">By clicking sign up you are indicating
+		that you have read and agree to the <a href="">Terms of Service & Privacy policy.</a></p>
+
+
+    </div>
+
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+
+
+    function Validate() {
+        var password = document.getElementById("txtPassword").value;
+       var confirmPassword = document.getElementById("txtConfirmPassword").value;
+
+        if (password != confirmPassword) {
+           document.getElementById("message").innerHTML = "->confirmed password is not matching";
+            return false;
+        } else if (password == confirmPassword) {
+            document.getElementById("message").innerHTML = "";
+       }
+        return true;
+    }
+</script>
+
+    
+
+
+  </body>
+
+</html>
